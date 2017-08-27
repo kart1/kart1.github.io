@@ -2,6 +2,7 @@
 
 body {
   line-height: 1.0;
+  padding-top: 130px;
 }
 
 .navbar {
@@ -88,6 +89,11 @@ body {
 	width: 130px;/* should be equal .navbar min-height*/
 }
 
+.bg-red {
+  background-color: #d21318;
+  color: #ffffff;
+}
+
 .bg-2 { 
   background-color: black;
   color: #ffffff;
@@ -98,38 +104,232 @@ body {
   color: black;
 }
 
-#vnr-header-title h1 {
-  margin: 170px 0 15px 0;
+.home-track-print-text {
+  text-align: left;
+  padding-top: 70px;
+}
+
+.home-track-print-text h2 {
+  margin: 0 0 30px 0;
   font-family: BebasNeue;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 300;
   letter-spacing: 6px;
   line-height: 1.0;
 }
 
-#vnr-map-container {
+.home-track-print-text p {
+  margin: 0 0 30px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+#home-track-image {
+  margin-top: 40px;
+}
+
+.btn-home-read-more {
+  margin: 30px 0 50px 0;
+  background-color: white;
+  color: #d21318;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn-home-read-more:hover {
+  opacity: 0.85;
+  background-color: white;
+  color: #d21318;
+  border-color: transparent;
+}
+
+.glyphicon.kart-icon {
+  content: url('../img/karticon.png');
+}
+
+.home-services-element {
+  padding: 50px 50px 70px 50px;
+}
+
+.home-services-element>h3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  color: #5c5c5c;
+}
+
+.home-services-element>p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5c5c5c;
+}
+
+#home-services a {
+  color: #d21318;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#home-services a:hover {
+  color: #5c5c5c;
+}
+
+.home-parallax {
+  /* The image used */
+    background-image: url("../img/home_parallax.jpg");
+
+    /* Set a specific height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+
+    padding: 70px 0 70px 0;
+}
+
+#home-leaderboard h2 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 30px 0 30px 0;
+}
+
+#home-leaderboard p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 30px 0 30px 0;
+}
+
+#home-gokart-intro {
+  padding: 50px 0 50px 0;
+}
+
+#home-gokart-intro h2 {
+  color: #ed1c24;
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+#home-gokart-intro p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5c5c5c;
+  padding: 20px 0 0 0;
+  -webkit-font-smoothing: antialiased;
+  word-wrap: break-word;
+}
+
+#home-gokart-intro a {
+  color: #d21318;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+
+#home-gokart-intro a:hover {
+  color: #5c5c5c;
+}
+
+#home-map-container {
   padding-right: 0;
   padding-left: 0;
+  background-color: white;
 }
 
-/*#map-container {
-  pointer-events: none;
-}*/
-
-#vnr-map-carousel p {
-  /*margin-bottom: 100px;*/
-  font-family: Roboto Thin;
-  font-size: 16px;
-  line-height: 1.263157895em;
+#home-new-post h2 {
+  color: #ed1c24;
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 30px 0 0 0;
 }
 
-#vnr-map-carousel a {
-  /*margin-bottom: 100px;*/
-  font-family: Roboto Thin;
-  font-size: 16px;
-  line-height: 1.263157895em;
-  color: red;
+.home-new-post-element {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
+.home-new-post-element img {
+  width: 100%;
+  padding: 0 0 30px 0;
+}
+
+.home-new-post-element>a {
+  color: #ed1c24;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 0 0 0;
+}
+
+.home-new-post-element>a:hover {
+  color: #5c5c5c;
+}
+
+.home-new-post-element>p {
+  padding: 30px 0 0 0;
+  color: #5c5c5c;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.home-new-post-element #continue-reading {
+  color: #ed1c24;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.home-new-post-element #continue-reading:hover {
+  color: #5c5c5c;
+}
+
+#home-book-label {
+  padding: 30px 0 30px 0;
+}
+#home-book-label h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 0 0 15px 0;
+}
+#home-book-label button {
+  background-color: white;
+  color: #d21318;
+  margin: 15px 20px 10px 20px;
+  padding: 10px 30px 10px 30px;
+}
+
+
+
+
+
+
+
 
 .vnr-track-card {
   padding-top: 30px;
