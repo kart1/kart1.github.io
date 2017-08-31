@@ -2,14 +2,14 @@
 
 body {
   line-height: 1.0;
-  padding-top: 130px;
+  padding-top: 100px;/* navbar height */
 }
 
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
     background-color: #ffffff; /* navbar bg color */
-    min-height: 130px;
+    min-height: 100px;
 }
 
 .navbar-inverse {
@@ -22,7 +22,7 @@ body {
   	font-size: 1.5rem;
   	font-size: 24px;
   	font-weight: 300;
-  	border-right: 1px solid #C0C0C0;
+  	/*border-right: 1px solid #C0C0C0;*/
   	margin-top: 50px;
 }
 
@@ -85,10 +85,45 @@ body {
 	padding-left: 50px;
 }
 
-.vnr-logo {
-	width: 130px;/* should be equal .navbar min-height*/
+.home-vnr-logo {
+  margin-left: 50px;
+	width: 100px;/* should be equal .navbar min-height*/
 }
 
+/* new navbar */
+#book-now-btn {
+  float: right;
+}
+
+#book-now-btn>button {
+  margin: 30px 30px 30px 0;
+  background-color: #d21318;
+  border-radius: 0;
+}
+
+#home-nav-item-container {
+  float: right;
+  margin-right: 30px;
+}
+
+#call-us-div {
+  float: right;
+}
+
+#menu-primary-navigation {
+  margin-top: -20px;
+}
+
+.nav.navbar-nav>li>a {
+  color: #d21318;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: #d21318;
+  opacity: 0.7;
+}
+
+/* */
 .bg-red {
   background-color: #d21318;
   color: #ffffff;
