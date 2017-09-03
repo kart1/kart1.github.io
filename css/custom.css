@@ -95,10 +95,17 @@ body {
   float: right;
 }
 
+#book-now-btn p {
+  margin: 40px 0 0 0;
+  font-size: 20px;
+  color: black;
+}
+
 #book-now-btn>button {
-  margin: 50px 30px 30px 0;
+  /*margin: 50px 30px 30px 0;*/
   background-color: #d21318;
   border-radius: 0;
+  width: 100%;
 }
 
 #home-nav-item-container {
@@ -186,8 +193,13 @@ body {
   content: url('../img/karticon.png');
 }
 
+#home-services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .home-services-element {
-  padding: 50px 50px 70px 50px;
+  padding: 0 50px 0 50px;
 }
 
 .home-services-element>h3 {
@@ -245,6 +257,11 @@ body {
   margin: 30px 0 30px 0;
 }
 
+#home-leaderboard img {
+  padding-top: 70px;
+  width: 40%;
+}
+
 #home-leaderboard p {
   color: white;
   font-family: "Open Sans", sans-serif;
@@ -252,6 +269,14 @@ body {
   font-weight: 400;
   line-height: 24px;
   margin: 30px 0 30px 0;
+}
+
+.btn-home-leaderboard {
+  margin: 10px 0 0 0;
+  background-color: white;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 #home-gokart-intro {
