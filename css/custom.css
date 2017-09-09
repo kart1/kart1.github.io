@@ -146,6 +146,11 @@ body {
   color: black;
 }
 
+.bg-grey {
+  background-color: #f6f6f6;
+  color: #ffffff;
+}
+
 .home-track-print-text {
   text-align: left;
   padding-top: 70px;
@@ -193,7 +198,7 @@ body {
   content: url('../img/karticon.png');
 }
 
-#home-services {
+/*#home-services {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -231,7 +236,68 @@ body {
 
 #home-services a:hover {
   color: #5c5c5c;
+}*/
+
+
+/* service card */
+#home-services {
+  padding-top: 50px;
+  /*padding-bottom: 50px;*/
 }
+
+#home-services h3 {
+  color: #ffffff;
+  font-family: BebasNeue;
+  font-size: 20px;
+  font-weight: 400;
+  /*padding-top: 10px;*/
+  padding-bottom: 10px;
+}
+
+#home-services p {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+#home-services-2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#home-services-2 h3 {
+  color: #ffffff;
+  font-family: BebasNeue;
+  font-size: 20px;
+  font-weight: 400;
+  /*padding-top: 10px;*/
+  padding-bottom: 10px;
+}
+
+#home-services-2 p {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.services-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.services-card img {
+  width: 100%;
+}
+
+
 
 .home-parallax {
   /* The image used */
@@ -247,6 +313,10 @@ body {
     background-size: cover;
 
     padding: 70px 0 70px 0;
+}
+
+#home-leaderboard {
+
 }
 
 #home-leaderboard h2 {
