@@ -130,6 +130,10 @@ body {
   opacity: 0.7;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent;
+}
+
 /* */
 .bg-red {
   background-color: #d21318;
