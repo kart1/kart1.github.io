@@ -412,14 +412,15 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
-  padding: 20px 0 0 0;
+  padding: 30px 0 0 0;
 }
+
 
 .home-new-post-element>a:hover {
   color: #5c5c5c;
 }
 
-.home-new-post-element>p {
+.home-new-post-element p {
   padding: 30px 0 0 0;
   color: #5c5c5c;
   font-family: "Open Sans", sans-serif;
@@ -427,6 +428,11 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
+
+/*.home-new-post-element-p {
+  min-height: 120px;
+  max-height: 120px;
+}*/
 
 .home-new-post-element #continue-reading {
   color: #ed1c24;
