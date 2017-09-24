@@ -40,6 +40,38 @@ body {
 
 }
 
+/* new navbar */
+.book-now {
+  margin-top: 50px;
+}
+
+.book-now {
+  background-color: #d21318;
+  border-radius: 0;
+  width: 100%;
+}
+
+/*.book-now {
+  float: right;
+}*/
+
+#book-now-btn p {
+  margin: 40px 0 0 0;
+  font-size: 20px;
+  color: black;
+}
+
+#book-now-btn>button {
+  /*margin: 50px 30px 30px 0;*/
+  background-color: #d21318;
+  border-radius: 0;
+  width: 100%;
+}
+
+.sub-container {
+  padding-left: 0;
+}
+
 #vnr-secondary-nav {
   padding-left: 10px;
 }
@@ -90,28 +122,53 @@ body {
 	width: 100px;/* should be equal .navbar min-height*/
 }
 
-/* new navbar */
-#book-now-btn {
-  float: right;
-}
-
-#book-now-btn p {
-  margin: 40px 0 0 0;
-  font-size: 20px;
-  color: black;
-}
-
-#book-now-btn>button {
-  /*margin: 50px 30px 30px 0;*/
-  background-color: #d21318;
-  border-radius: 0;
-  width: 100%;
-}
 
 #home-nav-item-container {
   float: right;
   margin-right: 30px;
 }
+
+/*#home-nav-sub-item-container {
+  float: right;
+}*/
+
+.sub-container {
+  margin-top: 50px;
+  margin-left: -50px;
+}
+
+#upper-list li {
+  display: inline;
+}
+
+#upper-list a {
+  color: black;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#lower-list p {
+  padding-left: 5px;
+  padding-top: 10px;
+  width: 100%;
+  font-family: BebasNeue;
+  font-size: 20px;
+}
+
+#lower-list a {
+  color: red;
+}
+
+
+/*ul#sub-menu-container {
+  margin-top: 50px;
+}*/
+
+
+
+
+
 
 #call-us-div {
   float: right;
