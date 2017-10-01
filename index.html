@@ -212,7 +212,11 @@
 </div>
 
 
-
+<div id="home-map-image" class="col-md-12 home-map-image-class">
+    <!-- <div class="container-fluid"> -->
+        <img src="img/img_location_map.png">
+    <!-- </div> -->
+</div>
 
 
 <!-- <div id="home-gokart-intro" class="col-md-12 bg-white">
@@ -229,8 +233,8 @@
 
 
 <!--google map-->
-<div id="home-map-container" class="col-md-12">
-    <!-- <div id="map-container" class="maps" style="height: 480px;"></div> -->
+<!-- <div id="home-map-container" class="col-md-12">
+    <div id="map-container" class="maps" style="height: 400px;"></div>
     <iframe
         width=100%
         height="400"
@@ -238,12 +242,15 @@
         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB5PmR3zdMD0Xrdv59mbJnkbCi-NamNYXk
         &q=10.813906, 106.733437" allowfullscreen>
     </iframe>
-</div>
+</div> -->
+
+
+
 
 
 
 <!-- Branches -->
-<div id="home-branch-info" class="col-md-12 bg-red">
+<!-- <div id="home-branch-info" class="col-md-12 bg-red">
     <div class="col-md-3">
         <h3>Let's Move</h3>
         <p>199M Nguyễn Văn Hưởng<br>Thao Dien Ward, District 2<br>Ho Chi Minh City, Vietnam<br>Mon - Fri: 3pm - 9pm<br>Sat - Sun, Holiday: 8am - 8pm<br>Hotline 1: 0916 917 496 (Viet - Eng)<br>Hotline 2: 0911 577 711 (Viet - Eng)<br>Email: letsmove@vinaracing.vn<br>www.facebook.com/letsmove.hcm</p>
@@ -260,7 +267,7 @@
         <h3>Suoi Tien Theme Park</h3>
         <p>120 Hanoi Highway<br>Tan Phu Ward, District 9<br>Ho Chi Minh City, Vietnam<br>Mon - Fri: 12pm - 5pm<br>Sat - Sun, Holiday: 8am - 5pm<br>Hotline 1: 0916 917 440 (Viet - Eng - Ger)<br>Hotline 2: 0911 577 711 (Viet - Eng)<br>Email: info@vinaracing.vn</p>
     </div>
-</div>
+</div> -->
 
 
 
@@ -363,6 +370,53 @@
 <!--Google Maps-->
 <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyB5PmR3zdMD0Xrdv59mbJnkbCi-NamNYXk"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+<!-- <script>
+    function init_map() {
+        var var_location = new google.maps.LatLng(10.813906, 106.733437);
+        var var_location2 = new google.maps.LatLng(10.866174,106.8006679);
+        var var_location3 = new google.maps.LatLng(10.7058923,106.709728);
+        var var_location4 = new google.maps.LatLng(10.6596609,106.8539597);
+
+        var var_mapoptions = {
+            center: var_location,
+
+            zoom: 11
+        };
+
+        var var_marker = new google.maps.Marker({
+            position: var_location,
+            map: var_map,
+            title: "Vinaracing"
+        });
+
+        var var_marker2 = new google.maps.Marker({
+            position: var_location2,
+            map: var_map,
+            title: "Suoi Tien Park"
+        });
+
+        var var_marker3 = new google.maps.Marker({
+            position: var_location3,
+            map: var_map,
+            title: "District 7"
+        });
+
+        var var_marker4 = new google.maps.Marker({
+            position: var_location4,
+            map: var_map,
+            title: "Bo Cap Vang"
+        });
+
+        var var_map = new google.maps.Map(document.getElementById("map-container"),
+            var_mapoptions);
+
+        var_marker.setMap(var_map);
+        var_marker2.setMap(var_map);
+        var_marker3.setMap(var_map);
+        var_marker4.setMap(var_map);
+    }
+    google.maps.event.addDomListener(window, 'load', init_map);
+</script> -->
 
 
 </body>
