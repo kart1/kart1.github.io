@@ -137,11 +137,14 @@ body {
   padding-top: 10px;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  /*font-weight: 600;
+  font-size: 16px;*/
 }
 
 #lower-list a {
   color: red;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 
