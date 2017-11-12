@@ -152,7 +152,7 @@
 <div id="tracks-info-table" class="col-md-12 bg-dark-grey">
     <div class="container col-md-4 text-center tracks-info-table-element">
         <ul class="tracks-info-table-ul">
-            <li><h1>SPRINT SESSION</h1></li>
+            <li><h3>SPRINT SESSION</h3></li>
             <li><p><i class="fa fa-money tracks-info-table-icons" aria-hidden="true"></i> 100.000vnđ per person</p></li>
             <li><p><i class="fa fa-clock-o tracks-info-table-icons" aria-hidden="true"></i> 20 minutes</p></li>
             <li><p><i class="fa fa-calendar tracks-info-table-icons" aria-hidden="true"></i> Mon - Fri</p></li>
@@ -169,7 +169,7 @@
     </div>
     <div class="container col-md-4 text-center tracks-info-table-element">
         <ul class="tracks-info-table-ul">
-            <li><h1>GRAND PRIX</h1></li>
+            <li><h3>GRAND PRIX</h3></li>
             <li><p><i class="fa fa-money tracks-info-table-icons" aria-hidden="true"></i> 100.000vnđ per person</p></li>
             <li><p><i class="fa fa-clock-o tracks-info-table-icons" aria-hidden="true"></i> 20 minutes</p></li>
             <li><p><i class="fa fa-calendar tracks-info-table-icons" aria-hidden="true"></i> Mon - Fri</p></li>
@@ -186,7 +186,7 @@
     </div>
     <div class="container col-md-4 text-center tracks-info-table-element">
         <ul class="tracks-info-table-ul">
-            <li><h1>JUNIOR KARTING</h1></li>
+            <li><h3>JUNIOR KARTING</h3></li>
             <li><p><i class="fa fa-money tracks-info-table-icons" aria-hidden="true"></i> 100.000vnđ per person</p></li>
             <li><p><i class="fa fa-clock-o tracks-info-table-icons" aria-hidden="true"></i> 20 minutes</p></li>
             <li><p><i class="fa fa-calendar tracks-info-table-icons" aria-hidden="true"></i> Mon - Fri</p></li>
@@ -204,7 +204,44 @@
 </div>
 
 
+<div id="tracks-decor-view" class="col-md-12 bg-red text-center">
+    <div class="col-md-6 col-md-offset-3 text-center">
+        <h3>Go Karting HCM Prices</h3>
+        <p>Premium Go Karting in Ho Chi Minh from just 100.000VND per person.</p>
+    </div>
+</div>
 
+
+<div id="tracks-location" class="col-md-12 bg-white">
+    <div class="col-md-6">
+        <h3><i class="fa fa-location-arrow tracks-info-table-icons" aria-hidden="true"></i> Where in HCM are we located?</h3>
+        <p>We are conveniently located just 10 minutes from the Central.</p>
+        <p>We are perfectly located for customers coming inside HCM city.</p>
+        <p>We are easily accessible via motorbike, car and public transport.</p>
+    </div>
+    <div class="col-md-3">
+        <h3><i class="fa fa-map-marker tracks-info-table-icons" aria-hidden="true"></i> Address</h3>
+        <p>Kart1:</p>
+        <p>582/12 Huynh Tan Phat,</p>
+        <p>Tan Phu Ward,</p>
+        <p>District 7, HCM.</p>
+    </div>
+    <div class="col-md-3">
+        <h3 style="color: transparent;">Address</h3>
+        <p>Let’s Move:</p>
+        <p>199M Nguyen Van Huong,</p>
+        <p>Thao Dien Ward,</p>
+        <p>District 2, HCM.</p>
+    </div>
+</div>
+
+
+<!-- map -->
+<div id="tracks-google-map" class="col-md-12 bg-white">
+    <div id="tracks-map" class="container">
+        
+    </div>
+</div>
 
 
 <footer class="footer bg-2">
@@ -262,17 +299,18 @@
 <!--Google Maps-->
 <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyB5PmR3zdMD0Xrdv59mbJnkbCi-NamNYXk"></script>
 <script type="text/javascript" src="js/custom.js"></script>
-<!-- <script>
+
+<script>
     function init_map() {
         var var_location = new google.maps.LatLng(10.813906, 106.733437);
         var var_location2 = new google.maps.LatLng(10.866174,106.8006679);
         var var_location3 = new google.maps.LatLng(10.736833, 106.729472);
         var var_location4 = new google.maps.LatLng(10.659387,106.8548617);
 
+        var centerLoc = new google.maps.LatLng(10.781527,106.728572);
         var var_mapoptions = {
-            center: var_location,
-
-            zoom: 11
+            center: centerLoc,
+            zoom: 12
         };
 
         var var_marker = new google.maps.Marker({
@@ -299,16 +337,17 @@
             title: "Bo Cap Vang"
         });
 
-        var var_map = new google.maps.Map(document.getElementById("map-container"),
+        var var_map = new google.maps.Map(document.getElementById("tracks-map"),
             var_mapoptions);
 
         var_marker.setMap(var_map);
-        var_marker2.setMap(var_map);
+        // var_marker2.setMap(var_map);
         var_marker3.setMap(var_map);
-        var_marker4.setMap(var_map);
+        // var_marker4.setMap(var_map);
+
     }
     google.maps.event.addDomListener(window, 'load', init_map);
-</script> -->
+</script>
 
 
 </body>
