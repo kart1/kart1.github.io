@@ -369,6 +369,12 @@ body {
   font-size: 12px;
 }
 
+
+#tracks-overlay {
+    position: relative;
+    max-width: 100%;
+}
+
 .btn-tracks-info-table-book-now {
   /*margin: 40px 0 40px 0;*/
   background-color: #ed1b24;
