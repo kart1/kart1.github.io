@@ -199,6 +199,22 @@ body {
   color: #ffffff;
 }
 
+
+
+
+#home-mobile-hotline p {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 20px 0 20px 0;
+  margin: 0 0 0 0;
+}
+
+#home-mobile-hotline a {
+  color: #ffe91d;
+}
+
+
+
 .home-track-print-text {
   text-align: left;
   padding-top: 70px;

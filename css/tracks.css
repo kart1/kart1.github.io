@@ -370,9 +370,17 @@ body {
 }
 
 
-#tracks-overlay {
-    position: relative;
-    max-width: 100%;
+#tracks-info-table-element-background {
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  padding-top: 172px;
+  padding-bottom: 200px;
+}
+
+#tracks-info-table-element-background p {
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .btn-tracks-info-table-book-now {
