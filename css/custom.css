@@ -311,7 +311,7 @@ body {
 
 #home-services h3 {
   color: #ffffff;
-  font-family: BebasNeue;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 400;
   /*padding-top: 10px;*/
@@ -335,7 +335,7 @@ body {
 
 #home-services-2 h3 {
   color: #ffffff;
-  font-family: BebasNeue;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 400;
   /*padding-top: 10px;*/
