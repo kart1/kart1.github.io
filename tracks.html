@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title>TRACKS</title>
-
+    <link rel="icon" href="img/vinaracinglogo.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/tracks.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -351,6 +351,34 @@
         var_marker3.setMap(var_map);
         // var_marker4.setMap(var_map);
 
+        google.maps.InfoWindow.prototype.opened = true;
+        var infowindow1 = new google.maps.InfoWindow({
+                content:"<b>Let's Move</b>.<br> 199M Street Nguyen Van Huong,<br> Thao Dien Ward, District 2, HCMC."
+            });
+        var infowindow3 = new google.maps.InfoWindow({
+                content:"<b>KART 1</b>.<br> 582/12 Street Huynh Tan Phat,<br>Tan Phu Ward, District 7, HCMC."
+            });
+        infowindow1.open(var_map, var_marker);
+        infowindow3.open(var_map, var_marker3);
+
+        google.maps.event.addListener(var_marker,'click',function() {
+            if (infowindow1.opened) {
+                infowindow1.close();
+                infowindow1.opened = false;
+            } else {
+                infowindow1.open(var_map, var_marker);
+                infowindow1.opened = true;
+            }
+        });
+        google.maps.event.addListener(var_marker3,'click',function() {
+            if (infowindow3.opened) {
+                infowindow3.close();
+                infowindow3.opened = false;
+            } else {
+                infowindow3.open(var_map, var_marker3);
+                infowindow3.opened = true;
+            }
+        });
     }
     google.maps.event.addDomListener(window, 'load', init_map);
 </script>
